@@ -1,7 +1,7 @@
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
 NotificationLibrary:SendNotification("Warning", "Script Loading ...", 10)
-NotificationLibrary:SendNotification("Warning", "YouTube: Turbo Lite Thanks For Subscribe", 10)
+NotificationLibrary:SendNotification("Warning", "YouTube: Turbo Lite Thanks For Subscribe ^^", 10)
 
 -- join team
 if game:GetService("Players").LocalPlayer.PlayerGui.Main:FindFirstChild("ChooseTeam") then
@@ -2343,7 +2343,7 @@ local Tabs = {
     RC = Window:AddTab({ Title = "Tab Auto V4", Icon = "" }),
     raid = Window:AddTab({ Title = "Tab Raid", Icon = "" }),
     De = Window:AddTab({ Title = "Tab Fruit", Icon = "" }),    
-    Ms = Window:AddTab({ Title = "", Icon =" Tab Title" }),   
+    Ms = Window:AddTab({ Title = "Tab Title", Icon ="" }),   
     Settings = Window:AddTab({ Title = "Setting", Icon = "" }),
 }
 local Options = Fluent.Options
